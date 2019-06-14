@@ -1,0 +1,23 @@
+{
+  "name": "http-replay",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "record": "node index.js -p 9090 -s ./requests",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "commander": "^2.20.0",
+    "express": "^4.17.1",
+    "moment": "^2.24.0",
+    "moment-duration-format": "^2.3.2",
+    "ora": "^3.4.0",
+    "request": "^2.88.0",
+    "tingodb": "^0.6.1"
+  }
+}
